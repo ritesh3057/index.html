@@ -1,0 +1,92 @@
+/* Import Google Font 'Poppins' with various weights */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700;800;900&display=swap');
+
+/* Reset styles for all elements */
+* {
+    padding: 0; /* Remove default padding */
+    margin: 0; /* Remove default margin */
+    box-sizing: border-box; /* Use border-box for box model */
+    font-family: 'Arial', sans-serif; /* Set default font family */
+}
+
+/* Styles for the body element */
+body {
+    width: 100%; /* Full width */
+    background-color: grey; /* Grey background color */
+    color: white; /* White text color */
+}
+
+/* Styles for the header heading section */
+#heading {
+    margin-top: 100px; /* Top margin of 100px */
+}
+
+/* Styles for the header navbar */
+#nav {
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset; /* Box shadow */
+}
+
+/* Styles for the header search bar section */
+#search-bar {
+    max-width: 600px; /* Maximum width of 600px */
+}
+
+/* Styles for the search input within the search bar */
+#search-bar input {
+    height: 50px; /* Input height */
+    border-radius: 20px; /* Border radius */
+}
+
+/* Styles for the meal card */
+#card {
+    background-color: grey; /* Grey background color */
+    padding: 10px; /* Padding */
+    color: white; /* Text color */
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px; /* Box shadow */
+}
+
+/* Styles for images within meal cards */
+#card img {
+    border-radius: 50%; /* Circular border */
+}
+
+/* Styles for the meal details container */
+#meal-details {
+    width: 100%; /* Full width */
+    padding: 20px; /* Padding */
+    border-radius: 20px; /* Border radius */
+    background-color: grey; /* Grey background color */
+}
+
+/* Styles for the meal header within meal details */
+#meal-header {
+    width: 70%; /* 70% width */
+    margin: auto; /* Centered margin */
+}
+
+/* Styles for thumbnail images within meal details */
+#meal-thumbail img {
+    height: 250px; /* Image height */
+    width: 250px; /* Image width */
+    border-radius: 50%; /* Circular border */
+}
+
+/* Styles for details section within meal details */
+#details {
+    display: flex; /* Flexbox display */
+    flex-direction: column; /* Column direction */
+    align-items: center; /* Centered alignment */
+    justify-content: center; /* Centered content */
+    font-style: italic; /* Italic font style */
+}
+
+/* Styles for meal instruction within meal details */
+#meal-instruction {
+    margin: auto; /* Centered margin */
+    text-align: center; /* Centered text alignment */
+}
+
+/* Styles for the favourites offcanvas */
+#favourites-body {
+    background-color: #212529; /* Dark background color */
+}
